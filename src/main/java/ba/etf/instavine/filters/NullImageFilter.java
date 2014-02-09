@@ -8,6 +8,7 @@ import java.awt.color.ColorSpace;
 
 public class NullImageFilter extends ImageFilterBase  {
     public BufferedImage applyFilter(BufferedImage src, BufferedImage dst) {
+    	
         return src;
     }
 }
